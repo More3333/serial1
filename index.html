@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!-- The scrollable area -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+...
+  <ul class="navbar-nav">
+    <li><a href="#section1">Section 1</a></li>
+    <ul class="navbar-nav">
+    <li><a href="#section2">Section 2</a></li>
+    <ul class="navbar-nav">
+      <li><a href="#section3">Section 3</a></li>
+    <ul class="navbar-nav">
+    ...
+</nav>
+
+<!-- Section 1 -->
+
+
+
+
+...
+
+</body>
+<!-- Carousel -->
+<div id="demo" class="carousel slide w-75 container" data-bs-ride="carousel" >
+ <div id="section1">
+  <h1>Section 1</h1>
+  <p>Главные герои 20 лет спустя</p>
+</div>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="caru1.webp" alt="1" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="caru2.webp" alt="2" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="caru3.webp" alt="3" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="caru4.webp" alt="4" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="caru5.webp" alt="5" class="d-block w-100">
+    </div>
+  </div>
+
+
+  <div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col"> «Друзья» — это трогательная история любви и образцовая история успеха. Любовь мгновенно связала шестерых телегероев и их восторженную публику. Успех превзошел все, что продюсеры могли ждать от ромкома, и задал планку, которую так никто, кажется, и не преодолел.
+
+А все начиналось очень просто. Три молодых человека и три девушки, связанные дружескими, родственными и романтическими отношениями. Две квартиры в старом доме на Манхэттене и одна кафешка с уютным диваном. Росс любит Рэйчел, но Рэйчел не до того — она делает первые шаги в самостоятельной жизни без папиной кредитки в кошельке. Приютившая ее Моника маниакально следит за чистотой и порядком, а Джоуи и Чендлер дурачатся в квартире напротив. И есть еще Фиби, у которой вообще не все дома. Большую часть времени друзья проводят в кофейне за углом, состязаясь в остроумии, и в гостиной у Моники, опустошая ее холодильник. Таков каркас.</div>
+  <div class="col">Дэвид Крейн и Марта Кауффман, создатели и неподражаемые сценаристы сериала, наполнили его мириадом ситуаций и диалогов в диапазоне от забавных до гомерически смешных, целым взводом второстепенных персонажей, уникальных настолько, что даже неловко называть их второстепенными, а главное — ностальгией и драматизмом, столь не свойственными ромкомам и столь обычными для нормальной человеческой жизни. Есть ли вообще другая телевизионная комедия из двух с лишним сотен серий, заставляющая зрителя — не часто, но регулярно — плакать навзрыд? Абсолютный нонсенс, полный факап с точки зрения законов жанра. Лучшее, что могло случиться на ТВ, по мнению многомиллионной аудитории «Друзей».</div>
+  <div class="col">В конечном итоге все переженились, остепенились и — чего греха таить — исписались. Сериал иссяк и закончился жирной точкой, не обещавшей продолжения. С этого момента началась его вторая жизнь. Поколение нулевых, свеженькое, глупенькое, испорченное продукцией Apple, известной социальной сетью и «Доктором Хаусом», так и не оставило в покое любимый наркотик поколения 90-х. Каждый день новые жертвы «Друзей» включают самую первую серию самого первого сезона и на 5192 минуты проваливаются в молодость шестерых людей, чрезвычайно похожих на них самих, только без смартфонов.</div>
+</div>
+
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="container-fluid bg-secondary">
+  <div id="section2">
+  <h1>Section 2</h1>
+  <p>Главные герои</p>
+</div>
+  <h1 class="text-white">Главные актеры</h1>
+  <div class="card-group">
+<div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="glav2.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Дже́ннифер Джоа́нна Э́нистон </h4>
+    <p class="card-text"> Американская актриса, кинорежиссёр и продюсер[4], наиболее известна как исполнительница роли Рэйчел Грин в телевизионном сериале канала NBC «Друзья» (1994—2004), за которую она была удостоена премий «Эмми» (2002) и «Золотой глобус» (2003). Обладательница именной звезды на голливудской «Аллее славы»[5].</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+  <div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="glav1.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Леблан, Мэтт </h4>
+    <p class="card-text">Американский актёр. Наиболее известен исполнением роли Джоуи Триббиани в телесериале «Друзья» (1994—2004), а также в его продолжении «Джоуи» (2004—2006). В 2011 году вернулся на телевидение в сериале «Эпизоды», где предстал в образе вымышленной версии самого себя. За эту роль был удостоен первого «Золотого глобуса» в своей карьере.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+  <div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="glav3.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Лиза Валери Кудроу-Стерн </h4>
+    <p class="card-text">Американская актриса, продюсер, телеведущая и комедиантка, наиболее известная по роли Фиби Буффе в ситкоме NBC «Друзья», за которую получила премию «Эмми» в 1998 году.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="container-fluid bg-secondary">
+   <div id="section3">
+  <h1>Section 3</h1>
+  <p>Второстепенные герои </p>
+</div>
+  <h1 class="text-white">Второстепенные Актеры</h1>
+  <div class="card-group">
+<div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="vt1.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Кэрол Уиллик (Джейн Сиббетт) </h4>
+    <p class="card-text">Первая жена Росса Геллера, с которой тот познакомился ещё в колледже. Они жили вместе 8 месяцев, а потом были женаты восемь лет, но расстались из-за того, что Кэрол поняла, что является лесбиянкой. Воспитывает сына Бена с Россом и своей подругой, а со временем — законной супругой Сьюзен.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+  <div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="vt2.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">МАЙКЛ РАПАПОРТ </h4>
+    <p class="card-text">Американский актер и комик. Начав свою карьеру в начале 1990-х, он сыграл более 100 ролей в кино и на телевидении. Его роли включают фильм "Настоящая любовь" (1993), высшее образование (1995), метро (1997), полицейский участок (1997), Глубокое синее море (1999), 6-й день (2000), Доктор Дулиттл 2 (2001), фанат (2009), и тепло (2013). На телевидении, он озаглавил Лиса ситком Война в доме (2005-2007) и был постоянным Лиса драма Бостоне (2001-2004), в четвертом сезоне Лиса серийная драма "побег из тюрьмы" (2008-2009), а компания Netflix комедии драмы атипичные (2017-2021). Рапапорт также играл повторяющиеся роли в ситкомах NBC "Друзья" (1999) и "Меня зовут Эрл" (2007-2008), а также в вестерне FX "Оправданный" (2014).</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+  <div class="card" style="width:30%">
+  <img class="card-img-top rounded-circle" src="vt3.webp" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Кэйти актриса — Пежет Брюстер </h4>
+    <p class="card-text">Кэйти (актриса — Пежет Брюстер (англ. Paget Brewster)) — девушка, с которой встречался Джо, пока в неё не влюбился Чендлер и она не ушла к нему. За это Джо разозлился на друга и заставил его сидеть в ящике, чтобы тот почувствовал свою вину. Но через некоторое время Чендлер расстался с Кэйти, подумав, что у неё роман с коллегой по театру. Когда он собрался попросить прощения у Кэйти и пришёл к ней домой, оказалось, что она уже не одна.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+</div>
+</body>
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+  <!-- Grid container -->
+  <div class="container p-4">Самый культовый сериал всех времен </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
